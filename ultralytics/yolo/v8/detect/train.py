@@ -17,7 +17,7 @@ from ultralytics.yolo.utils.ops import xywh2xyxy
 from ultralytics.yolo.utils.plotting import plot_images, plot_results
 from ultralytics.yolo.utils.tal import TaskAlignedAssigner, dist2bbox, make_anchors
 from ultralytics.yolo.utils.torch_utils import de_parallel
-
+from ultralytics.yolo.v8.detect.train import Loss
 
 # BaseTrainer python usage
 class DetectionTrainer(BaseTrainer):
